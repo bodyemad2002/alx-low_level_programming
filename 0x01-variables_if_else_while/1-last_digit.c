@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: A C program that print the number is positive or negative.
+ * Description: A C program that print the last digit of n
  *
  * Return: Always 0
 */
