@@ -1,21 +1,18 @@
-#include <stdio.h>
+#include "holberton.h"
+
 /**
- * main - Entry point
- * Description: A C program that print _putchar
- * Return: void
-*/
+  * print_alphabet - Make the alphabet
+  *
+  * Return: void
+  */
 void print_alphabet(void)
 {
-	char x;
+	char c;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(x);
+		_putchar(c);
 	}
-	putchar('\n');
-}
 
-int main(void)
-{
-    print_alphabet();
+	_putchar('\n');
 }
