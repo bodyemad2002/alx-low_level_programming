@@ -2,7 +2,7 @@
 /**
  * print_alphabet - Entry point
  * Description: A C program that print _putchar
- * Return: Always 0
+ * Return: void
 */
 void print_alphabet(void)
 {
