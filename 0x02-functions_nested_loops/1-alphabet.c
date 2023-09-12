@@ -11,7 +11,7 @@ void print_alphabet(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		printf(x);
+		_putchar(x);
 	}
-	printf('\n');
+	_putchar('\n');
 }
