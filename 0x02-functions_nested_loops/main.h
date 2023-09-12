@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry point
  * Description: A C program that print with printf function
