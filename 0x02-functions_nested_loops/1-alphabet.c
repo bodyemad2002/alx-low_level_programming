@@ -10,9 +10,9 @@ void print_alphabet(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		_putchar("%c",x);
+		putchar("%c",x);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
 /**
  * main - Entry point
