@@ -2,13 +2,13 @@
 #include <stdio.h>
 /**
   * _abs - computes the absolute value
-  * @int: The character to be checked
+  * @n: The character to be checked
   * Return: Always 0
   */
-int _abs(int)
+int _abs(int n)
 {
-	if (int < 0)
-		return (-int);
+	if (n < 0)
+		return (-n);
 	else
-		return (int);
+		return (n);
 }
