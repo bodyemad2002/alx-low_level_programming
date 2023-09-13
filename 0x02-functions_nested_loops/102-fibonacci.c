@@ -6,12 +6,17 @@
 */
 int main(void)
 {
-	int x;
+	int x = 50;
+	int first = 1, second = 2, next;
 
-	for (x = 1; x <= 50; x++)
+	printf("%d\n%d\n", first, second);
+
+	for (int i = 3; i <= n; i++)
 	{
-		printf("%d, ", x);
+		next = first + second;
+		printf("%d\n", next);
+		first = second;
+		second = next;
 	}
-	putchar('\n');
 	return (0);
 }
