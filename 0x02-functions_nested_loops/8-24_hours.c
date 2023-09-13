@@ -13,7 +13,8 @@ void jack_bauer(void)
 	{
 		for (minute = 0; minute < 60; minute++)
 		{
-			printf("%d:%d\n", hour, minute);
+			printf("%d:%d", hour, minute);
 		}
+		printf('\n');
 	}
 }
