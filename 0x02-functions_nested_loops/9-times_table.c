@@ -7,14 +7,11 @@
   */
 void times_table(void)
 {
-	int x, y;
+	int x;
 
 	for (x = 0; x < 10; x++)
 	{
-		for (y = 0; y < 10; y++)
-		{
-			_putchar(x);
-			_putchar(y);
-		}
+		printf("%d * 9 = %d\n", i, i*9);
 	}
+	return (0);
 }
