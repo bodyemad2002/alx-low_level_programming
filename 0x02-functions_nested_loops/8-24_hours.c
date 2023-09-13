@@ -7,9 +7,14 @@
   */
 void jack_bauer(void)
 {
-	int x;
+	int hour, minute;
 
-	for (x = 00 : 00; x < 24 : 00; x++)
-		printf(x);
-	return (x);
+	for (hour = 0; hour < 24; hour++)
+	{
+		for (minute = 0; minute < 60; minute++)
+		{
+			printf("%d:%d", hour, minute);
+		}
+	}
+	return (0);
 }
