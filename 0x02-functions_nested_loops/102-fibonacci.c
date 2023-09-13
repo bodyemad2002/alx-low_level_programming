@@ -10,7 +10,6 @@ int main(void)
 	int first = 1, second = 2, next;
 
 	printf("%d\n%d\n", first, second);
-
 	for (int i = 3; i <= x; i++)
 	{
 		next = first + second;
