@@ -15,6 +15,6 @@ void jack_bauer(void)
 		{
 			printf("%d:%d", hour, minute);
 		}
-		printf('\n');
+		_putchar('\n');
 	}
 }
