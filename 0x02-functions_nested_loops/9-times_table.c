@@ -13,7 +13,8 @@ void times_table(void)
 	{
 		for (y = 0; y < 10; y++)
 		{
-			printf(x, y);
+			_putchar(x);
+			_putchar(y);
 		}
 	}
 }
