@@ -6,17 +6,22 @@
 */
 int main(void)
 {
-	int x = 50;
-	int first = 1, second = 2, next;
+	int x;
+	unsigned long first = 0, second = 1, sum;
 
-	printf("%d\n%d\n", first, second);
-	for (int i = 3; i <= x; i++)
+	for (x = 0; x < 50; x++)
 	{
-		next = first + second;
-		printf("%d\n", next);
+		sum = first + second;
+		printf("%lu", sum);
+
 		first = second;
-		second = next;
-		-std = c99;
+		second = sum;
+
+		if (x == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
+
 	return (0);
 }
