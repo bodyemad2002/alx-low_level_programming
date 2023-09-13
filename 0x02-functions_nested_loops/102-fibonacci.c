@@ -11,7 +11,7 @@ int main(void)
 
 	printf("%d\n%d\n", first, second);
 
-	for (int i = 3; i <= n; i++)
+	for (int i = 3; i <= x; i++)
 	{
 		next = first + second;
 		printf("%d\n", next);
