@@ -16,6 +16,7 @@ int main(void)
 		printf("%d\n", next);
 		first = second;
 		second = next;
+		-std = c99
 	}
 	return (0);
 }
