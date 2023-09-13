@@ -16,5 +16,4 @@ void jack_bauer(void)
 			printf("%d:%d", hour, minute);
 		}
 	}
-	return (0);
 }
