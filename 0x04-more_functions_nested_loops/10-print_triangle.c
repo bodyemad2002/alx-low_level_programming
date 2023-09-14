@@ -1,31 +1,36 @@
 #include <stdio.h>
-
 /**
-* print_triangle - prints a triangle
-* @size: The character to be checked
-* Return: 0
-*/
-
+ * print_triangle - Function that prints a triangle, followed by a new line.
+ * @size: the int for the paramaters of my function
+ * Return: Always 0.
+ */
 void print_triangle(int size)
 {
-	int x = 0;
-	int y = 0;
+	int x, y = 0;
+	int space;
 
-	if (n > 0)
+	if (size > 0)
 	{
-		while (x < n)
+		while (y < size)
 		{
-			while (y < x)
+			space = size - y - 1;
+			while (x < size)
 			{
-				_putchar(' ');
-				y++;
+				if (space > x)
+				{
+					_putchar(' ');
+				}
+				else
+				{
+					_putchar('#');
+				}
+				x++;
 			}
-			x++;
-			y = 0;
-			_putchar('#');
-			_putchar('\n');
+			y++;
+			x = 0;
+			_putchar ('\n');
 		}
 	}
 	else
-	_putchar('\n');
+		_putchar('\n');
 }
