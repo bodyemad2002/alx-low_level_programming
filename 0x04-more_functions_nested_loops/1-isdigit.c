@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
-  * _isupper - Checks for uppercase character
+  * _isdigit -  checks for a digit
   * @c: The character to be checked
   *
-  * Return: 1 for uppercase character or 0 for anything else
+  * Return: 1 for digit or 0 for anything else
   */
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 		return (1);
