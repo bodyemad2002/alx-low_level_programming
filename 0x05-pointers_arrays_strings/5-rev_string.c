@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * rev_string - check the code
- * @s: The character to be checked
- * Return: Always 0.
- */
+  * rev_string - Reverses a string
+  * @s: The string to be modified
+  *
+  * Return: void
+  */
 void rev_string(char *s)
 {
 	int x, y, k;
