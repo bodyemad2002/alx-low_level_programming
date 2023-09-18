@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * reset_to_98 - check the code
+ * @n: The character to be checked
  * Return: Always 0.
  */
-int main(void)
+void reset_to_98(int *n)
 {
 	int n;
 
