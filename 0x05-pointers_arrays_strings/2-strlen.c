@@ -6,7 +6,7 @@
  * @s: The character to be checked
  * Return: Always 0.
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int x = 0;
 
