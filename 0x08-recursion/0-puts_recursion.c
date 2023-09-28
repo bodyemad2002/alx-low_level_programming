@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * _puts_recursion - check the code
  * @s: The character to be checked
@@ -6,5 +7,6 @@
  */
 void _puts_recursion(char *s)
 {
-	puts("Puts with recursion");
+	string s = "Puts with recursion";
+	printf(s);
 }
