@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - check the code
- *
+ * _puts_recursion - check the code
+ * @*s: The character to be checked
  * Return: Always 0.
  */
-int main(void)
+void _puts_recursion(char *s)
 {
 	puts("Puts with recursion");
 	return (0);
