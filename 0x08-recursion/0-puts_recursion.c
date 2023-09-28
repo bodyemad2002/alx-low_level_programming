@@ -7,6 +7,6 @@
  */
 void _puts_recursion(char *s)
 {
-	string s = "Puts with recursion";
-	printf(s);
+	stdin *s = "Puts with recursion";
+	printf("%s\n", s);
 }
